@@ -38,12 +38,6 @@ button {
     padding: 15px;
 }
 
-button:hover {
-    background-color: #f6980c;
-    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
-    transition: background-color 0.3s ease-in;
-}
-
 .about__image {
     width: 500px;
 }
@@ -91,6 +85,7 @@ button:hover {
     width: 550px;
 }
 
+
 .form {
     display: flex;
     justify-content: center;
@@ -109,6 +104,20 @@ button:hover {
     text-align: left
 }
 
+.form__submit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+select {
+    appearance: none;
+}
+
+input {
+    outline: none;
+}
+
 .form h1 {
     font-size: 48px;
 }
@@ -124,43 +133,19 @@ button:hover {
     margin-top: 60px;
 }
 
-footer {
+.form label {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
 
-    padding-top: 90px;
-    padding-bottom: 90px;
+.form input,
+.form select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.footer__copyright {
-    padding-top: 40px;
-    text-align: center;
-    opacity: 0.5;
-}
-
-.footer__container {
-    display: flex;
-    justify-content: center;
-}
-
-.footer__group {
-    margin-right: 80px;
-}
-
-.footer__links {
-    display: flex;
-    flex-direction: column;
-}
-
-
-h3 {
-    font-size: 16px;
-    opacity: 0.7;
-    margin-bottom: 30px;
-}
-
-.footer__links a {
-    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
 }
