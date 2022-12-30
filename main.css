@@ -83,6 +83,7 @@ button:hover {
 
 .about {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 115px;
@@ -90,6 +91,13 @@ button:hover {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
 }
 
 .about h1 {
@@ -324,6 +332,8 @@ button:hover {
     grid-gap: 20px;
     margin-top: 60px;
 }
+
+/*Подвал*/
 
 footer {
 
